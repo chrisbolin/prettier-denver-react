@@ -1,0 +1,13 @@
+p {
+  margin: 0.5em !important;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  text-align: left;
+  line-height: 2;
+  list-style: none;
+}
