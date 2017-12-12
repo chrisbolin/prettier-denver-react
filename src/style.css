@@ -1,13 +1,28 @@
+h1,
+h2,
+h3 {
+  text-shadow: 2px 2px white, 6px 6px lightblue;
+}
+
 p {
   margin: 0.5em !important;
 }
 
 a {
   color: inherit;
+  border-bottom: 2px solid lightblue;
+}
+
+a:hover {
+  border-bottom: 2px solid black;
 }
 
 ul {
   text-align: left;
-  line-height: 2;
-  list-style: none;
+  line-height: 1.5;
+  list-style: circle inside;
+}
+
+img[alt~="and-or"] {
+  width: 70vw;
 }

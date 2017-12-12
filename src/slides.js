@@ -11,25 +11,17 @@ react denver ⚡lightning⚡ talks
 
 ---
 
-## auto-formatting
+### auto-formatting code
 
 ![what-is-it](./what-is-it.gif)
 
-- automatically formats code
-
-- (on save, on commit, on linting)
-
----
-
-## better than lint
-
-- linting: **passive** "go fix this"
-
-- auto-formatting: **active** "I fixed it"
+- removes formatting and _re-prints_ code
+- line-length, spacing, parens, string style, indents, jsx spacing, lists...
+- in editor (on save) & cli (on commit)
 
 ---
 
-# please do this
+### please do this
 
 - it’s easy
 - it will make you more effective
@@ -37,43 +29,72 @@ react denver ⚡lightning⚡ talks
 
 ---
 
-# why should you believe me?
+### why should you believe me?
 
 - i’m pessimistic and grumpy
 - i’m using it on all my projects
 
 ---
 
+### why it’s good
 
-# why it’s good
-
-code reviews
-looks like one person wrote it
-enables you to think at a higher level
-removes worries. fewer choices -> better
-refactors that seem intimidating (like adding a parent div to an already deep render() function or changing ()=> to class are really just formatting issues.)
-
----
-
-a quick note
-
-this is not a new idea.
-examples: prettier, elm-format, go format.
+- fewer petty decisions and discussions
+- code reviews are more focused
+- consistent, easier-to-read codebase
+- make code clearer
+- structual refactors are easier
+- enables higher-level thinking
 
 ---
 
-do it right
 
-the real genius is when it’s strict, enforced, and automatic
-strict - don’t allow variation
-enforced - it’s not optional
-automatic - you don’t have to think about it
+### JSX reformatting
+
+![long-line](./long-line.gif)
 
 ---
 
-next steps
+### make code clearer
 
-get prettier: https://github.com/prettier/prettier
+![and-or](./and-or.gif)
 
-@bolinchris
+---
+
+### easy refactors
+![refactor](./refactor.gif)
+
+---
+
+### better than lint
+
+- linting: **passive** "go fix this"
+- auto-formatting: **active** "I fixed it"
+
+for _non-style issues_, you'll still need lint. e.g. unused vars, consoles, max complexity
+
+---
+
+### quick notes
+
+- not a new idea. see reason, elm, go
+- js, css, markdown, json, jsx, & more!
+
+---
+
+### do it right
+
+make sure it's...
+
+- **strict** - don’t allow variation
+- **enforced** - it’s not optional
+- **automatic** - no thought required
+
+---
+
+### 👋 thanks, y'all
+
+[prettier.io](https://prettier.io)
+
+[@bolinchris](https://twitter.com/bolinchris)
+
 `;

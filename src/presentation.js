@@ -9,25 +9,30 @@ import slidesMarkdown from "./slides";
 require("normalize.css");
 require("./style.css");
 
-const theme = createTheme(
-  {
-    primary: "white", // background
-    secondary: "hsl(0, 0%, 10%)", // text
-    tertiary: "hsl(0, 0%, 16%)",
-    quarternary: "deeppink" // progress bar
-  },
-  {
-    primary: { name: "Anonymous Pro", googleFont: true, styles: ["400", "700"] }
-  }
-);
-
 export default class Presentation extends React.Component {
+  getTheme() {
+    return createTheme(
+      {
+        primary: "white", // background
+        secondary: "hsl(0, 0%, 10%)", // text
+        tertiary: "hsl(0, 0%, 16%)",
+        quarternary: "lightpink" // progress bar
+      },
+      {
+        primary: {
+          name: "Anonymous Pro",
+          googleFont: true,
+          styles: ["400", "700"]
+        }
+      }
+    );
+  }
   render() {
     return (
       <Deck
         transition={["fade", "slide"]}
         transitionDuration={800}
-        theme={theme}
+        theme={this.getTheme()}
         progress="bar"
         controls={false}
       >
