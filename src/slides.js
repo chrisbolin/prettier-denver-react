@@ -7,7 +7,7 @@ chris bolin, [@bolinchris](https://twitter.com/bolinchris)
 
 [formidable](https://formidable.com)
 
-react denver ⚡lightning⚡ talks
+react denver ⚡ talks, dec 2017
 
 ---
 
@@ -41,7 +41,7 @@ react denver ⚡lightning⚡ talks
 - fewer petty decisions and discussions
 - code reviews are more focused
 - consistent, easier-to-read codebase
-- make code clearer
+- makes your code clearer
 - structual refactors are easier
 - enables higher-level thinking
 

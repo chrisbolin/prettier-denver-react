@@ -26,3 +26,8 @@ ul {
 img[alt~="and-or"] {
   width: 70vw;
 }
+
+::selection {
+  background-color: black;
+  color: white;
+}
